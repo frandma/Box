@@ -1,0 +1,13 @@
+name: Box
+version: '${project.version}'
+main: me.frandma.box.BoxPlugin
+api-version: 1.19
+authors: [ Frandma ]
+description: Core for a box server.
+website: https://github.com/frandma/
+commands:
+  arena:
+    description: Make or remove arenas.
+    permission: box.arena
+    permission-message: §cYou cannot do that.
+    usage: "§/arena create <name> <price> <resetseconds>, /arena list, /arena delete <name>"
